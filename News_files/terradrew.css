@@ -655,7 +655,7 @@
 	position: absolute;
 	top: 0;
 	left: 10px;
-	text-align: left;
+	text-align: right;
 }
 #terra-wrapper .dir .al-form .input-wrapper .error+label {
 	left: initial;

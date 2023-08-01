@@ -163,11 +163,17 @@ button:-moz-focusring,
     margin-left: 5%;
     margin-top: -10px
 }
+ul
+{
+    text-align: right;
+    direction: rtl;
+    padding-right: 27px !important;
 
+}
 .ouimain-text p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    text-align: left;
+    text-align: right;
     color: #fff;
     font-size: 22px;
     padding-bottom: 5px
@@ -277,7 +283,8 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle
+    vertical-align: middle;
+    max-width: 100%;
 }
 
 a {
@@ -295,7 +302,7 @@ a:visited {
 }
 
 body {
-    background-color: #0a1239
+    background-color: #f7384c;
 }
 
 .clearfix {
@@ -350,7 +357,7 @@ body {
 .menu {
     width: 100%;
     height: auto;
-    background-color: #f78d38;
+    background-color: #f7384c;
     margin-top: -17px;
     position: relative;
     z-index: 1
@@ -358,7 +365,9 @@ body {
 
 .menu ul {
     width: 95%;
-    margin: 0
+    margin: 0;
+    padding-top: 10px;
+
 }
 
 .menu-item {
@@ -442,14 +451,17 @@ body {
     color: #060600;
     font-weight: 700
 }
-
+h3
+{
+    text-align: right !important;
+}
 .main-text p {
     font-family: pt sans, sans-serif;
     line-height: 27px;
     font-size: 18px;
     color: #060000;
     font-weight: 400;
-    text-align: justify
+    text-align: right
 }
 
 .image-main-content img {
@@ -510,8 +522,9 @@ body {
 }
 
 .vk-avatar img {
-    float: left;
-    margin-right: 10px
+    border-radius: 25px;
+    width: 55px;
+    height: 50px;   
 }
 
 .vk-comment,
@@ -634,7 +647,7 @@ td {
 
 @media screen and (max-width:768px) {
     .main-text p {
-        text-align: left
+        text-align: right;
     }
 }
 
@@ -647,7 +660,7 @@ td {
         text-align: center;
         width: 100%;
         height: auto;
-        background-color: #f78d38
+        background-color: #f7384c;
     }
     .mobile-menu a {
         text-decoration: none;
@@ -680,7 +693,8 @@ td {
     }
     .main-text h1,
     .main-text p {
-        padding: 5px
+        padding: 5px;
+        text-align: right;
     }
 }
 
@@ -729,7 +743,7 @@ body {
 .iframe {
     width: 100%;
     height: auto;
-    background: #00558f none repeat scroll 0% 0%;
+    background: #f7384c none repeat scroll 0% 0%;
     overflow: hidden;
     margin-top: 30px
 }
@@ -746,11 +760,12 @@ body {
 .ifr_button {
     font-family: Arial;
     cursor: pointer;
-    color: #fff !important;
+    color: #000 !important;
     padding: 0;
+    font-size: 32px !important;
     border-width: medium medium 2px;
     border-style: none none solid;
-    border-color: currentcolor currentcolor #c0392b;
+    border-color: currentcolor currentcolor #ffffff;
     -moz-border-top-colors: none;
     -moz-border-right-colors: none;
     -moz-border-bottom-colors: none;
@@ -758,18 +773,20 @@ body {
     -o-border-image: none;
     border-image: none;
     display: block;
-    margin: 8px 20px 20px;
-    color: #fff;
+    margin: 8px 20px
+ 20px;
+    /* color: #000; */
     font-size: 20px;
     text-decoration: none;
     text-align: center;
     width: 180px;
     height: 51px;
     line-height: 51px;
-    background: #e74c3c none repeat scroll 0% 0%;
+    background: #fff6f5 none repeat scroll 0% 0%;
     font-weight: 700;
-    border-radius: 3px
+    border-radius: 3px;
 }
+
 
 .ifr_button:hover {
     background: #e75c4e none repeat scroll 0% 0%
