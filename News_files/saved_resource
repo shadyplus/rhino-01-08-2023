@@ -1,0 +1,1 @@
+runLandScriptsParams({"offers":"{\"IQ\":{\"country\":\"Iraq\",\"cost\":\"54000\",\"cost_delivery\":\"11000\",\"currency\":\"IQD\",\"cost_promo\":108000,\"complects\":[]}}","footer_script":1,"scripts":["covid","validator","footer"],"country_name":"Egypt","country_code":"EG","_alid":"09de3ae8-3eda-4f5a-8d52-375c6a590020"})
